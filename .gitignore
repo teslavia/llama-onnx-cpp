@@ -7,7 +7,7 @@ venv/
 __pycache__/
 
 # 忽略大模型文件 (非常重要！GitHub 单文件限制 100MB)
-model-onnx/
+# model-onnx/
 *.onnx
 *.data
 
