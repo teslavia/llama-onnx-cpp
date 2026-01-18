@@ -1,0 +1,22 @@
+# 忽略编译生成目录
+build/
+cmake-build-debug/
+
+# 忽略 Python 虚拟环境
+venv/
+__pycache__/
+
+# 忽略大模型文件 (非常重要！GitHub 单文件限制 100MB)
+model-onnx/
+*.onnx
+*.data
+
+# 忽略 Mac 系统文件
+.DS_Store
+
+# 忽略 IDE 配置 (可选)
+.vscode/
+.idea/
+
+.cache_dir
+cache_dir
